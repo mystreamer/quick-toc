@@ -5,6 +5,9 @@ pkgs.mkShellNoCC {
     (python3.withPackages (ps: [ 
       ps.openai
       ps.pikepdf
+      ps.pdf2image
+      ps.outlines
+      ps.pillow
     ]))
     curl
     jq
