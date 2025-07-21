@@ -118,3 +118,6 @@ pdm.lock
 
 # ignore test direcotry
 test
+
+# Ignore all pdf files
+*.pdf

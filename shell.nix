@@ -8,6 +8,7 @@ pkgs.mkShellNoCC {
       ps.pdf2image
       ps.outlines
       ps.pillow
+      ps.bottle
     ]))
     curl
     jq
