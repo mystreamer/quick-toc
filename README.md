@@ -15,6 +15,12 @@ nix-shell
 
 ## Usage
 
+### Web App
+
+Run: `python app.py`
+
+### Command Line Interface
+
 To add a table of contents to a PDF file, run:
 
 ```
