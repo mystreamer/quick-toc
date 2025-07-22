@@ -1,0 +1,101 @@
+/* Center everything */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Logo styling */
+img {
+    display: block;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+details {
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+summary {
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    list-style: none;
+}
+
+summary::-webkit-details-marker {
+    display: none; /* hide the default triangle */
+}
+
+.accordion {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* details { */
+/*     background-color: #ffffff; */
+/*     padding: 25px 30px; */
+/*     border-radius: 10px; */
+/*     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+/*     width: 320px; */
+/*     margin-bottom: 20px; */
+/* } */
+
+/* Form container */
+form {
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+/* Labels and inputs layout */
+form label,
+form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+/* Input fields */
+input[type="file"],
+input[type="number"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+

@@ -1,18 +1,15 @@
-from bottle import run, route, request, response
+from bottle import run, route, request, response, template, static_file
 from script import main
 from types import SimpleNamespace
 
+# Serve static files (like images)
+@route('/static/<filename:path>')
+def send_static(filename):
+    return static_file(filename, root='./static')
+
 @route('/', method='GET')
 def generate_form():
-    return '''
-        <form action="/" method="post" enctype="multipart/form-data">
-            Select PDF: <input type="file" name="pdf" accept="application/pdf" required><br>
-            Start Page: <input type="number" name="start_page" required><br>
-            End Page: <input type="number" name="end_page" required><br>
-            Offset: <input type="number" name="page_offset" value="0"><br>
-            <input type="submit" value="Submit">
-        </form>
-        '''
+    return template('form.tpl')
 
 @route('/', method='POST')
 def process_document():
