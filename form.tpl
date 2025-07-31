@@ -33,10 +33,10 @@
             Currently, only PDF files are supported. Make sure your file ends with <code>.pdf</code>.</p>
 
             <p><strong>📅 What do "Start Page" and "End Page" mean?</strong><br>
-            These two parameters indicate when the Terms of Content starts and when it ends. Use your PDF viewer to provide this delimitation.</p>
+            These two parameters indicate when the Table of Content starts and when it ends. Use your PDF viewer to provide this delimitation.</p>
 
             <p><strong>➕ What is the "Offset" for?</strong><br>
-            Offset indicates the discrepancy between the book page numbering and the PDF page numbering. To figure out the offset go to a page that has a number written on it and then compare this with the page number provided by the provided PDF viewer. Then subtract the book-indicated page number from the PDF page number. Normally, PDF-page-number > book-page-number, so this should be a non-negativeinteger.</p>
+            Offset indicates the discrepancy between the book page numbering and the PDF page numbering. To figure out the offset go to a page that has a number written on it and then compare this with the page number provided by the provided PDF viewer. Then subtract the book-indicated page number from the PDF page number. Normally, PDF-page-number > book-page-number, so this should be a non-negative integer.</p>
         </details>
     </body>
 </html>
