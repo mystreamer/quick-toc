@@ -121,3 +121,7 @@ test
 
 # Ignore all pdf files
 *.pdf
+
+# nix things
+flake.lock
+*.tmp
