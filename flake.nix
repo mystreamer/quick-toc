@@ -45,6 +45,8 @@
             pillow
           ])}/bin/python app.py";
           Restart = "always";
+          StandardOutput = "journal";
+          StandardError = "journal";
         };
       };
     };
